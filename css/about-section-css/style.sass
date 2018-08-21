@@ -1,0 +1,110 @@
+@import '../partials-css/style'
+
+.about__container
+	max-width: 1350px
+	width: 100%
+	margin: 0 auto
+
+.about__txt
+	width: 100%
+	height: 100%
+	@include bg-gradient(#353795, #144F96)
+	color: $bg-font-color
+
+.about__txt-inner
+	width: 65%
+	padding: 50px
+	#drone
+		position: absolute	
+
+.about__interactive-box
+	width: 60%
+	margin-left: -23%
+	transform-style: preserve-3d
+	img
+		width: 100%
+		transform: translateZ(20px)
+	.interactive-box__tile
+		position: relative
+		margin: 5px 5px 25px 5px
+		height: 100px
+		background-size: cover
+		border: 5px solid $bg-font-color
+		.interactive-box__tile-overlay
+			position: absolute
+			top: 0
+			right: 0
+			bottom: 0
+			left: 0
+			width: 100%
+			height: 100%
+			background: $hero-overlay-color
+			a 
+				background: $hero-menu-continer-color
+				padding: 10px 35px
+				transform: rotateX(90deg) translateY(-40px)
+				opacity: 0
+				transition: .25s
+			&:hover
+				a 
+					opacity: 1
+					transform: rotateX(0deg) translateY(0px)
+	.interactive-box__inner-top
+		.interactive-box__tile
+			background-image:  url('../../img/birmingham-solicitors.png')
+		.interactive-box__tile
+			&:nth-of-type(2)
+				background-image:  url('../../img/michael-foster.png')
+
+	.interactive-box__inner-bottom
+		.interactive-box__tile
+			background-image: url('../../img/jubrochamata.png')
+			&:nth-of-type(2)
+				background-image:  url('../../img/accounting.png')
+
+#experience
+	.about__interactive-box
+		background: #274195
+		min-height: 400px
+		padding: 25px
+		color: $bg-font-color
+		-webkit-box-shadow: -9px 0px 19px -6px #1a356b
+		-moz-box-shadow: -9px 0px 19px -6px #1a356b
+		box-shadow: -9px 0px 19px -6px #1a356b
+
+
+/***************** RWD *******************/
+@media only screen and (min-width: 1440px)
+	.about__container
+		max-width: 80%
+@media only screen and (max-width: 980px)
+	.about__container
+		flex-direction: column
+	#experience
+		.about__txt
+			margin-bottom: 100px
+	.about__txt-inner
+		width: 100%
+	.about__interactive-box
+		width: 100%
+		margin-left: 0
+		padding: 100px 50px 0
+		text-align: center
+		.interactive-box__tile
+			.interactive-box__tile-overlay a
+				opacity: 1
+				transform: rotateX(0deg) translateY(0px)
+	.hide-mobile
+		display: none
+
+@media only screen and (max-width: 500px)
+	.interactive-box__inner-top,
+	.interactive-box__inner-bottom
+		flex-direction: column
+
+	.about__interactive-box
+		padding: 50px
+		.interactive-box__tile
+			margin: 20px
+	.about__txt-inner
+		padding: 100px 50px

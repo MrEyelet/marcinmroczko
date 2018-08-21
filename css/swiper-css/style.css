@@ -1,0 +1,32 @@
+.swiper-pagination-bullet {   
+    width: 10px!important;
+    height: 10px!important;
+    border-radius: 0!important;
+    background: transparent!important;
+    border: 2px solid #fff!important;
+    opacity: .5!important;
+}
+.swiper-pagination-bullet-active {
+	opacity: 1!important;
+    background: #fff!important;
+}
+.swiper-pagination {
+	bottom: -40px
+}
+.swiper-pagination-clickable .swiper-pagination-bullet {
+    padding: 5px;
+    margin: 2px;
+}
+.swiper-button-prev {
+    left: -35px!important;
+}
+.swiper-button-next {
+    right: -35px!important;
+}
+.swiper-button-prev {
+    background-image: url('../../img/svg/left-chevron.svg')!important;
+}
+.swiper-button-next {
+    background-image: url('../../img/svg/right-chevron.svg')!important;
+}
+

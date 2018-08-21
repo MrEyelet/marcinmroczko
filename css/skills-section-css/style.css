@@ -1,0 +1,156 @@
+#skills {
+  min-height: auto; }
+
+.bg-img__container {
+  position: relative;
+  background: url("../../img/abstract.jpg") no-repeat center/cover fixed; }
+  .bg-img__container::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(52, 55, 149, 0.65); }
+  .bg-img__container .bg-img__container-inner {
+    position: relative;
+    z-index: 9;
+    width: 35%; }
+
+#contact {
+  background: url("../../img/cracow.jpg") no-repeat 300px/cover; }
+  #contact::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: #353795;
+    background: -moz-linear-gradient(left, #353795 0%, #144F96 100%);
+    background: -webkit-linear-gradient(left, #353795 0%, #144F96 100%);
+    background: -o-linear-gradient(left, #353795 0%, #144F96 100%);
+    background: -ms-linear-gradient(left, #353795 0%, #144F96 100%);
+    background: linear-gradient(to right, #353795 0%, #144F96 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 ); }
+  #contact .bg-img__container-avatar {
+    position: absolute;
+    top: 50%;
+    left: 140%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 300px;
+    background: #1d4996;
+    border-radius: 50%;
+    -webkit-box-shadow: 10px 0px 20px -8px #133183;
+    -moz-box-shadow: 10px 0px 20px -8px #133183;
+    box-shadow: 10px 0px 20px -8px #133183; }
+    #contact .bg-img__container-avatar img {
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      border: 20px solid #1c4996; }
+
+.skill {
+  background: #353795;
+  background: -moz-linear-gradient(left, #353795 0%, #144F96 100%);
+  background: -webkit-linear-gradient(left, #353795 0%, #144F96 100%);
+  background: -o-linear-gradient(left, #353795 0%, #144F96 100%);
+  background: -ms-linear-gradient(left, #353795 0%, #144F96 100%);
+  background: linear-gradient(to right, #353795 0%, #144F96 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 );
+  color: #fff;
+  min-width: 350px;
+  min-height: 350px;
+  height: 350px;
+  overflow: hidden;
+  position: relative;
+  text-align: left;
+  -webkit-box-shadow: 0px 10px 25px -9px #1e2542;
+  -moz-box-shadow: 0px 10px 25px -9px #1e2542;
+  box-shadow: 0px 10px 25px -9px #1e2542;
+  outline: 1px solid #fff;
+  outline-offset: -10px; }
+  .skill * {
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease; }
+  .skill figcaption {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1; }
+  .skill h3 {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    background-color: #1d4996;
+    top: 0;
+    font-weight: 800;
+    letter-spacing: -0.4px;
+    margin: 0;
+    padding: 10px 20px;
+    position: absolute;
+    width: 100%; }
+  .skill p {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 0px 20px;
+    opacity: 0;
+    text-align: right;
+    -webkit-transition-delay: 0.15s;
+    transition-delay: 0.15s; }
+  .skill .hover {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    background-color: rgba(23, 77, 150, 0.8);
+    display: flex;
+    font-size: 65px;
+    justify-content: center;
+    opacity: 0; }
+  .skill:hover .hover,
+  .skill:hover p {
+    opacity: 1; }
+  .skill:hover h3 {
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%); }
+  .skill:hover img {
+    transform: scale(2.5); }
+
+/* RWD *********************************************** */
+@media only screen and (max-width: 980px) {
+  .bg-img__container .bg-img__container-inner {
+    width: 100%; }
+
+  #contact::after {
+    width: 100%; }
+  #contact .bg-img__container-avatar {
+    position: relative;
+    top: auto;
+    left: 50%;
+    transform: translate(-50%); }
+
+  .skill .hover,
+  .skill p {
+    opacity: 1; }
+  .skill h3 {
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%); }
+  .skill img {
+    transform: scale(2.5); } }
+@media only screen and (max-width: 500px) {
+  .bg-img__container {
+    padding: 100px 50px; }
+
+  .skill {
+    min-width: 225px; } }
+
+/*# sourceMappingURL=style.css.map */

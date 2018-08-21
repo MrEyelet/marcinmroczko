@@ -1,0 +1,130 @@
+@import '../partials-css/style'
+
+*
+	box-sizing: border-box
+
+html
+	font:
+		size: 100%
+
+body
+	font:
+		family: $content-font
+		size: 1.2rem
+	p
+		margin-bottom: 25px
+	p,a 
+		color: $bg-font-color
+		text-decoration: none
+	.link
+		border-bottom: 1px dashed $bg-font-color
+
+section
+	// min-height: 100vh
+	padding: 100px 50px
+	overflow: hidden
+
+p
+	line-height: 30px
+
+h1,h2,h3,h4,h5,h6
+	font-family: $heading-font
+	margin-bottom: 25px
+	line-height: 3.5rem
+	font-weight: 700
+
+h1
+	font-size: 3rem
+h2, .menu-item
+
+	font-size: 2.6rem
+
+h3
+	font-size: 2rem
+h4
+	font-size: 1.4rem
+
+h5, a
+
+	font-size: 1.2rem
+h6
+	font-size: 1rem
+
+video 
+	-webkit-filter: grayscale(100%)
+	filter: grayscale(100%)
+
+.section__heading
+	position: relative
+	z-index: 9
+	color: $bg-font-color
+	svg
+		transition: 1s
+		
+	&:hover
+		.section__icon-bottom
+			svg
+				transform: translateY(15px)
+	p
+		margin-bottom: 0
+		font-style: italic
+		color: #9edceb
+
+.section__heading-left
+	margin-right: 40px
+
+.section__heading-right
+	margin-bottom: 40px
+
+.section__icon-top
+	position: relative
+	margin-top: -10px
+	&::before,
+	&::after
+		content: ""
+		position: absolute
+		width: 20px
+		height: 1px
+		background: #fff
+		bottom: -39%
+		left: -87%
+	&::after
+		width: 1px
+		height: 20px
+		right: 155%
+		bottom: -67%
+		left: auto
+
+.section__icon-bottom
+	text-align: center
+	color: #9edceb
+
+footer
+	@include bg-gradient(#353795, #144F96)
+	font-size: 12px
+	text-align: center
+	p
+		margin-bottom: 0
+
+/* RWD ****************************/
+
+@media only screen and (max-width: 500px)
+	h1
+		font-size: 2.5rem
+	h2, .menu-item
+
+		font-size: 2rem
+
+	h3
+		font-size: 1.6rem
+	h4
+		font-size: 1.2rem
+
+	h5, a, body
+
+		font-size: 1rem
+	h6
+		font-size: 0.8rem
+
+	section
+		padding: 0
