@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Marcin Mroczko</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i|Poppins:400,400i,700,700i,900,900i&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/preloader-css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/reset-css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/flex-grid/style.css">
+    <link rel="stylesheet" type="text/css" href="css/general-css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/header-css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/about-section-css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/skills-section-css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/swiper-css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/js-classes/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"></script>
+</head>
+<body>
+  <div id="loader-wrapper">
+    <div class="load">
+      <hr/><hr/><hr/><hr/>
+    </div>
+  </div>
+	<header id="top" class="hero">
+		<div class="hero__top-bar fx-container fx-space-between fx-centered-v">
+			<a href="#top"><img class="hero__top-bar__left" src="img/svg/logo-oswald.png"></a>
+			<div class="hero__top-bar__right fx-container fx-centered-v">
+       <h5 id="button-js">Find more</h5>
+       <span class="hamburger__container">
+        <div class="hamburger__bar hamburger__top"></div>
+        <div class="hamburger__bar hamburger__middle"></div>
+        <div class="hamburger__bar hamburger__bottom"></div>
+       </span>
+			</div>
+		</div>
+		<video autoplay muted loop id="myVideo">
+	    <source src="video/krakow-vid.mp4" type="video/mp4">
+	    Your browser does not support HTML5 video.
+	  </video>
+	  <div class="hero__menu-container fx-container fx-centered">
+		  <nav class="hero__menu-list">
+			  <ul class="hero__menu-items fx-container fx-centered">
+          <li><a href="https://www.linkedin.com/in/marcinmroczko/?locale=en_US" target="_blank"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+          <li><a href="https://github.com/MrEyelet" target="_blank"><i class="fab fa-github" aria-hidden="true"></i></a></li>
+          <!--<li><a href="#"><i class="fab fa-codepen" target="_blank"></i></a></li>-->
+          <li><a href="https://dribbble.com/marcin-mroczko" target="_blank"><i class="fab fa-dribbble" aria-hidden="true"></i></a></li>
+          <li><a href="mailto:marcin.adam.mroczko@gmail.com"><i class="far fa-envelope" aria-hidden="true"></i></a></li>
+			  </ul>
+        <ul class="hero__menu-items"> 
+			    <li><a class="menu-item" href="#about">About</a></li>
+			    <li><a class="menu-item" href="#skills">Skillset</a></li>
+			    <li><a class="menu-item" href="#experience">Experience</a></li>
+			    <li><a class="menu-item" href="#contact">Contact</a></li>
+			  </ul>
+		  </nav>
+	  </div>
+	  <div class="hero__layer-outer">
+      <div class="hero__layer-inner fx-container fx-centered" data-tilt data-tilt-perspective="2000" data-tilt-max="15">
+        <div class="hero__intro-text">
+        <h1 class="hero__heading">Hi ! I'm Marcin,<br>
+          <span class="hero__subheading">a Web Developer<br>& UX / UI Designer</span>
+        </h1>
+        <h5>I live in Cracow.</h5>
+      </div>
+      </div>
+    </div>
+	</header>
+  <main>
+  	<section id="about" class="about__container fx-container fx-centered">
+  		<div class="about__txt">
+        <div class="about__txt-inner">
+          <div class="about__heading section__heading fx-container">
+            <div class="about__heading-left section__heading-left">
+              <p>who am I ?</p>
+              <h2>About</h2>
+            </div>
+            <div class="about__heading-right section__heading-right fx-container fx-column fx-space-between">
+              <div class="about__icon-top section__icon-top">
+                <img src="img/svg/boy-broad-smile.svg">
+              </div>
+              <div class="about__icon-bottom section__icon-bottom">
+                <i class="fas fa-long-arrow-alt-down"></i>
+              </div>
+            </div>
+          </div>
+          <p>Hi, my name is Marcin Mroczko. "Oczko" in Polish means little eye so this is why eye icon appears in my logo <span class="hide-mobile">and also here next to the right</span> :)</p>
+          <p>I create functional and aesthetic websites using various web technologies. I am constantly improving my technical skills and I am motivated to continue learning. I am happy to develop my passion by creating interesting projects.</p>
+          <p>Outside of work I also like: city-bike, swimming, eat health and fly my drone <img id="drone" src="img/svg/drone-icon.svg"></p>
+      </div>
+  		</div>
+  		<div class="about__interactive-box" data-tilt data-tilt-reverse="true" data-tilt-perspective="500" data-tilt-scale="1.1">
+        <img src="img/svg/eye.svg">
+  		</div>
+  	</section>
+    <section id="skills" class="bg-img__container ">
+      <div class="bg-img__heading section__heading fx-container">
+        <div class="bg-img__heading-left section__heading-left">
+          <p>that's what I can do</p>
+          <h2>Skillset</h2>
+        </div>
+        <div class="bg-img__heading-right section__heading-right fx-container fx-column fx-space-between">
+          <div class="bg-img__icon-top section__icon-top">
+            <img src="img/svg/list.svg">
+          </div>
+          <div class="bg-img__icon-bottom section__icon-bottom">
+            <i class="fas fa-long-arrow-alt-down"></i>
+          </div>
+        </div>
+      </div>
+      <div class="skills__container fx-container fx-centered">
+        <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide fx-container fx-centered">
+            <figure class="skill fx-container fx-centered">
+              <img src="img/svg/html5.svg" />
+            <figcaption>
+              <h3>HTML5</h3>
+              <p>I am confident with HTML5. I try write clean and semantic hypertext markups.</p>
+            </figcaption>
+            <div class="hover"></div>
+          </figure>
+          </div>
+          <div class="swiper-slide fx-container fx-centered">
+            <figure class="skill fx-container fx-centered">
+              <img src="img/svg/css-3.svg" />
+              <figcaption>
+                <h3>CSS3</h3>
+                <p>I am big fan of Flexbox. Also RWD is not foreign to me, I can use CSS to make websites responsive to device screens. Now I am gonna dive more into CSS Grid</p>
+              </figcaption>
+              <div class="hover"></div>
+            </figure>
+          </div>
+          <div class="swiper-slide fx-container fx-centered">
+            <figure class="skill fx-container fx-centered">
+              <img src="img/svg/java-script.svg" />
+              <figcaption>
+                <h3>JAVASCRIPT</h3>
+                <p>In my current job mostly I use jQuery. I would like focus more on plain javascript and improve skills in this direction. </p>
+              </figcaption>
+              <div class="hover"></div>
+            </figure>
+          </div>
+          <div class="swiper-slide fx-container fx-centered">
+            <figure class="skill fx-container fx-centered">
+              <img src="img/svg/git-logo.svg" />
+              <figcaption>
+                <h3>GIT</h3>
+                <p>Knowledge of basic commands enabling work with repository.</p>
+              </figcaption>
+              <div class="hover"></div>
+            </figure>
+          </div>
+          <div class="swiper-slide fx-container fx-centered">
+            <figure class="skill fx-container fx-centered">
+              <img src="img/svg/react.svg" />
+            <figcaption>
+              <h3>REACT</h3>
+              <p>This is what I would love to learn in the future.</p>
+            </figcaption>
+            <div class="hover"></div>
+          </figure>
+          </div>
+          <div class="swiper-slide fx-container fx-centered">
+            <figure class="skill fx-container fx-centered">
+              <img src="img/svg/adobe-illustrator.svg" />
+              <figcaption>
+                <h3>ILLUSTRATOR</h3>
+                <p>I like graphics very much. I started learn how to draw vectors and you can find my profile on <a href="https://dribbble.com/marcin-mroczko" class="link" target="_blank">dribbble</a>.</p>
+              </figcaption>
+              <div class="hover"></div>
+            </figure>
+          </div>
+          <div class="swiper-slide fx-container fx-centered">
+            <figure class="skill fx-container fx-centered">
+              <img src="img/svg/adobe-photoshop.svg" />
+              <figcaption>
+                <h3>PHOTOSHOP</h3>
+                <p>I use it do modify pictures for my website. I like give a better look of a photo using PS.</p>
+              </figcaption>
+              <div class="hover"></div>
+            </figure>
+          </div>
+          <div class="swiper-slide fx-container fx-centered">
+            <figure class="skill fx-container fx-centered">
+              <img src="img/svg/sass.svg" />
+              <figcaption>
+                <h3>SASS</h3>
+                <p>I don't use it commercially but i know how to use variables, nesting, mixins.</p>
+              </figcaption>
+              <div class="hover"></div>
+            </figure>
+          </div>
+          <div class="swiper-slide fx-container fx-centered">
+            <figure class="skill fx-container fx-centered">
+              <img src="img/svg/wordpress.svg" />
+              <figcaption>
+                <h3>WORDPRESS</h3>
+                <p>This is what I use now in my daily work.</p>
+              </figcaption>
+              <div class="hover"></div>
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+    </section>
+    <section id="experience" class="about__container fx-container fx-centered">
+      <div class="about__txt">
+        <div class="about__txt-inner">
+          <div class="about__heading section__heading fx-container">
+            <div class="about__heading-left section__heading-left">
+              <p>my current job & learning</p>
+              <h2>Experience</h2>
+            </div>
+            <div class="about__heading-right section__heading-right fx-container fx-column fx-space-between">
+              <div class="about__icon-top section__icon-top">
+                <img src="img/svg/coding.svg">
+              </div>
+              <div class="about__icon-bottom section__icon-bottom">
+                <i class="fas fa-long-arrow-alt-down"></i>
+              </div>
+            </div>
+          </div>
+          <p>Currently I work in Zaliet. I develop websites for small law firms to efficiently and effectively serve their clients and earn more money.</p>
+
+          <p>Features like instruction forms, online appointment booking and online payments transform lawfirm website into a useful client portal that puts firm above the competition.</p>
+
+          <p>Now I would like to focus much more on Javascript and learn React to create web aplictions. I also try vectors in Adobe Illustrator. You can find my work on <a href="https://dribbble.com/marcin-mroczko" target="_blank" class="link">dribbble</a>.</p>
+      </div>
+      </div>
+      <div class="about__interactive-box">
+          <h2>Some of my live projects</h2>
+          <div class="interactive-box__inner-top fx-container">
+            <div class="interactive-box__tile fx-flex1">
+              <div class="interactive-box__tile-overlay fx-container fx-centered">
+                <a href="http://www.birminghamsolicitorsltd.com/" target="_blank" class="fx-container fx-centered button">watch live</a>
+              </div>
+            </div> 
+            <div class="interactive-box__tile fx-flex1">
+              <div class="interactive-box__tile-overlay fx-container fx-centered">
+                <a href="https://www.michaelfosterlaw.co.uk/" target="_blank" class="fx-container fx-centered button">watch live</a>
+              </div>
+            </div>
+          </div>
+          <h2>Some of my designs</h2>
+          <div class="interactive-box__inner-bottom fx-container">
+            <div class="interactive-box__tile fx-flex1">
+              <div class="interactive-box__tile-overlay fx-container fx-centered">
+                <a href="../../img/jubrochamata.png" download class="fx-container fx-centered button">see details</a>
+              </div>
+            </div> 
+            <div class="interactive-box__tile fx-flex1">
+              <div class="interactive-box__tile-overlay fx-container fx-centered">
+                <a href="../../img/accounting.png" download class="fx-container fx-centered button">see details</a>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+    <section id="contact" class="bg-img__container">
+      <div class="bg-img__heading section__heading fx-container">
+        <div class="bg-img__heading-left section__heading-left">
+          <p>just call or send an email</p>
+          <h2>Contact me</h2>
+        </div>
+        <div class="bg-img__heading-right section__heading-right fx-container fx-column fx-space-between">
+          <div class="bg-img__icon-top section__icon-top">
+            <img src="img/svg/mail.svg">
+          </div>
+          <div class="bg-img__icon-bottom section__icon-bottom">
+            <i class="fas fa-long-arrow-alt-down"></i>
+          </div>
+        </div>
+      </div>
+      <div class="bg-img__container-inner fx-container fx-f-start fx-column">
+        <p>Do you think my offer is interestinng and you have your office located in Cracow? Great! I live here and I am ready for new job opportunities.</p>
+        <p>Are you from different city, country or even continent? No problem! I can work remotely :)</p>
+        <p>I am open minded to new carrer oportunities and interests.</p>
+        <p>Email me: <a href="mailto:marcin.adam.mroczko@gmail.com" class="link">marcin.adam.mroczko@gmail.com</a></p>
+        <p>Call me: <a href="tel:0048608214209" class="link">(+48) 608 214 209</a></p>
+        <div class="bg-img__container-avatar fx-container fx-centered">
+          <img src="img/ja.jpg" class="avatar">
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>Marcin Mroczko Copyright 2018 &copy;</p>
+  </footer>
+<script src="https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.4.1/vanilla-tilt.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js"></script>
+<script src="js/preloader.js"></script>
+<script src="js/appear-plugin.js"></script>
+<script src="js/main-functions.js"></script>
+<script src="js/mobile-scripts.js"></script>
+<script src="js/swiper.js"></script>
+</body>
+</html>
