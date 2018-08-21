@@ -1,0 +1,160 @@
+<svg version="1.1" id="H1i6XfslQ" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 511 511" style="enable-background:new 0 0 511.999 511.999;" xml:space="preserve" fill="#fff" width="32px" height="32px"><style type="text/css">@-webkit-keyframes B1nj67zogQ_HyvV8nigX_Animation {
+    0% {
+        -webkit-transform: rotate(1800deg);
+                transform: rotate(1800deg)
+    }
+    100% {
+        -webkit-transform: rotate(2159deg);
+                transform: rotate(2159deg)
+    }
+}
+@keyframes B1nj67zogQ_HyvV8nigX_Animation {
+    0% {
+        -webkit-transform: rotate(1800deg);
+                transform: rotate(1800deg)
+    }
+    100% {
+        -webkit-transform: rotate(2159deg);
+                transform: rotate(2159deg)
+    }
+}
+@-webkit-keyframes ryYipQfox7_SywzU2jlX_Animation {
+    0% {
+        -webkit-transform: rotate(1800deg);
+                transform: rotate(1800deg)
+    }
+    100% {
+        -webkit-transform: rotate(1441deg);
+                transform: rotate(1441deg)
+    }
+}
+@keyframes ryYipQfox7_SywzU2jlX_Animation {
+    0% {
+        -webkit-transform: rotate(1800deg);
+                transform: rotate(1800deg)
+    }
+    100% {
+        -webkit-transform: rotate(1441deg);
+                transform: rotate(1441deg)
+    }
+}
+@-webkit-keyframes SkUsTmGolQ_S1yg8njlm_Animation {
+    0% {
+        -webkit-transform: rotate(1800deg);
+                transform: rotate(1800deg)
+    }
+    100% {
+        -webkit-transform: rotate(2159deg);
+                transform: rotate(2159deg)
+    }
+}
+@keyframes SkUsTmGolQ_S1yg8njlm_Animation {
+    0% {
+        -webkit-transform: rotate(1800deg);
+                transform: rotate(1800deg)
+    }
+    100% {
+        -webkit-transform: rotate(2159deg);
+                transform: rotate(2159deg)
+    }
+}
+@-webkit-keyframes SJQopmGoem_SJUfr3og7_Animation {
+    0% {
+        -webkit-transform: rotate(1800deg);
+                transform: rotate(1800deg)
+    }
+    100% {
+        -webkit-transform: rotate(1441deg);
+                transform: rotate(1441deg)
+    }
+}
+@keyframes SJQopmGoem_SJUfr3og7_Animation {
+    0% {
+        -webkit-transform: rotate(1800deg);
+                transform: rotate(1800deg)
+    }
+    100% {
+        -webkit-transform: rotate(1441deg);
+                transform: rotate(1441deg)
+    }
+}
+#H1i6XfslQ * {
+    -webkit-animation-duration: 3s;
+            animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: cubic-bezier(0, 0, 1, 1);
+            animation-timing-function: cubic-bezier(0, 0, 1, 1)
+}
+#SJQopmGoem_SJUfr3og7 {
+    -webkit-animation-name: SJQopmGoem_SJUfr3og7_Animation;
+            animation-name: SJQopmGoem_SJUfr3og7_Animation;
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    transform-box: fill-box;
+    -webkit-transform: rotate(1820deg);
+            transform: rotate(1820deg)
+}
+#SkUsTmGolQ_S1yg8njlm {
+    -webkit-animation-name: SkUsTmGolQ_S1yg8njlm_Animation;
+            animation-name: SkUsTmGolQ_S1yg8njlm_Animation;
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    transform-box: fill-box;
+    -webkit-transform: rotate(1700deg);
+            transform: rotate(1700deg)
+}
+#ryYipQfox7_SywzU2jlX {
+    -webkit-animation-name: ryYipQfox7_SywzU2jlX_Animation;
+            animation-name: ryYipQfox7_SywzU2jlX_Animation;
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    transform-box: fill-box;
+    -webkit-transform: rotate(1820deg);
+            transform: rotate(1820deg)
+}
+#B1nj67zogQ_HyvV8nigX {
+    -webkit-animation-name: B1nj67zogQ_HyvV8nigX_Animation;
+            animation-name: B1nj67zogQ_HyvV8nigX_Animation;
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    transform-box: fill-box;
+    -webkit-transform: rotate(1820deg);
+            transform: rotate(1820deg)
+}
+#r1gip7foem_r1QXxasxm {
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    transform-box: fill-box
+}
+#SJQopmGoem_SyBTl6ixQ {
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    transform-box: fill-box
+}</style>
+<g id="r1gip7foem">
+	<g id="r1WjaQfoeQ">
+		<path d="M401.584,333.949l-29.408-29.408c-4.94-4.942-7.661-11.509-7.661-18.496v-60.086c0-6.986,2.721-13.555,7.661-18.495&#10;&#9;&#9;&#9;l29.407-29.408c16.093-16.091,16.097-42.137,0.003-58.232l-9.398-9.399c-16.052-16.053-42.176-16.055-58.232,0l-29.409,29.409&#10;&#9;&#9;&#9;c-4.94,4.94-11.509,7.661-18.496,7.661h-60.085c-6.987,0-13.555-2.721-18.496-7.661l-29.409-29.408&#10;&#9;&#9;&#9;c-16.053-16.055-42.176-16.055-58.231,0l-9.397,9.396c-16.055,16.053-16.055,42.176,0,58.231l29.408,29.408&#10;&#9;&#9;&#9;c4.94,4.94,7.661,11.509,7.661,18.496v60.086c0,6.987-2.721,13.555-7.66,18.495l-29.409,29.409&#10;&#9;&#9;&#9;c-16.055,16.053-16.055,42.176,0,58.231l9.399,9.398c16.055,16.055,42.177,16.053,58.231,0l29.409-29.409&#10;&#9;&#9;&#9;c4.94-4.94,11.509-7.66,18.496-7.66h60.085c6.987,0,13.555,2.721,18.496,7.661l29.409,29.408&#10;&#9;&#9;&#9;c16.052,16.056,42.176,16.057,58.231,0.001l9.398-9.398C417.677,376.088,417.678,350.042,401.584,333.949z M280.288,274.739&#10;&#9;&#9;&#9;h-48.566c-10.345,0-18.732-8.387-18.732-18.732c0-10.345,8.387-18.732,18.732-18.732h48.566c10.345,0,18.732,8.387,18.732,18.732&#10;&#9;&#9;&#9;C299.02,266.352,290.633,274.739,280.288,274.739z" id="H1Gj6mzsgX"/>
+	</g>
+</g>
+<g id="SJQopmGoem_SJUfr3og7" data-animator-group="true" data-animator-type="1"><g id="SJQopmGoem">
+	<g id="S1EspXMsgQ">
+		<path d="M146.791,5.484c-7.317-7.313-19.174-7.313-26.492,0.004L82.713,43.085c-10.737-2.109-22.148,0.983-30.399,9.234&#10;&#9;&#9;&#9;c-8.237,8.238-11.305,19.715-9.211,30.369L5.496,120.303c-7.313,7.316-7.312,19.177,0.004,26.491&#10;&#9;&#9;&#9;c7.317,7.314,19.174,7.314,26.491-0.004l37.587-37.595c10.737,2.109,22.148-0.984,30.397-9.234&#10;&#9;&#9;&#9;c8.238-8.237,11.307-19.715,9.212-30.369l37.608-37.618C154.108,24.66,154.106,12.799,146.791,5.484z" id="r1Ssamzoe7"/>
+	</g>
+</g></g>
+<g id="SkUsTmGolQ_S1yg8njlm" data-animator-group="true" data-animator-type="1"><g id="SkUsTmGolQ">
+	<g id="B1DspXfje7">
+		<path d="M506.512,120.302l-37.604-37.603c2.097-10.657-0.973-22.14-9.214-30.382c-8.24-8.24-19.721-11.31-30.381-9.214&#10;&#9;&#9;&#9;L391.708,5.499c-7.314-7.314-19.175-7.316-26.491,0c-7.316,7.314-7.316,19.175,0,26.491l37.604,37.604&#10;&#9;&#9;&#9;c-2.096,10.657,0.974,22.14,9.215,30.384c8.071,8.07,19.473,11.358,30.381,9.212l37.604,37.603c7.314,7.315,19.175,7.317,26.491,0&#10;&#9;&#9;&#9;C513.828,139.478,513.828,127.618,506.512,120.302z" id="ryuoaQMse7"/>
+	</g>
+</g></g>
+<g id="ryYipQfox7_SywzU2jlX" data-animator-group="true" data-animator-type="1"><g id="ryYipQfox7">
+	<g id="ry5samMjlQ">
+		<path d="M506.514,365.22c-7.316-7.317-19.175-7.318-26.492-0.004l-37.597,37.587c-10.722-2.108-22.131,0.975-30.39,9.232&#10;&#9;&#9;&#9;c-8.251,8.25-11.342,19.665-9.232,30.396l-37.597,37.587c-7.316,7.314-7.317,19.174-0.004,26.491&#10;&#9;&#9;&#9;c7.313,7.314,19.173,7.321,26.492,0.004l37.597-37.587c10.747,2.113,22.149-0.993,30.39-9.232c0,0,0,0,0.001,0&#10;&#9;&#9;&#9;c8.246-8.246,11.34-19.659,9.231-30.396l37.597-37.587C513.825,384.396,513.827,372.536,506.514,365.22z" id="H1soaXGilm"/>
+	</g>
+</g></g>
+<g id="B1nj67zogQ_HyvV8nigX" data-animator-group="true" data-animator-type="1"><g id="B1nj67zogQ">
+	<g id="HkaoTXMseQ">
+		<path d="M146.793,480.021l-37.618-37.618c2.094-10.654-0.975-22.13-9.212-30.369c-8.225-8.222-19.621-11.349-30.388-9.232&#10;&#9;&#9;&#9;l-37.597-37.597c-7.314-7.315-19.175-7.315-26.491,0c-7.316,7.316-7.316,19.175,0,26.491l37.618,37.618&#10;&#9;&#9;&#9;c-2.094,10.654,0.975,22.13,9.212,30.367c8.042,8.042,19.428,11.363,30.367,9.212l37.618,37.618&#10;&#9;&#9;&#9;c7.314,7.316,19.175,7.317,26.491,0C154.109,499.197,154.109,487.337,146.793,480.021z" id="rJRsaXMseQ"/>
+	</g>
+</g></g>
+<script>(function(){var a=document.querySelector('#H1i6XfslQ'),b=a.querySelectorAll('style'),c=function(d){b.forEach(function(f){var g=f.textContent;g&amp;&amp;(f.textContent=g.replace(/transform-box:[^;\r\n]*/gi,'transform-box: '+d))})};c('initial'),window.requestAnimationFrame(function(){return c('fill-box')})})();</script></svg>
