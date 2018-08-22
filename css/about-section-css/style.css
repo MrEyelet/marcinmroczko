@@ -75,9 +75,7 @@
 /***************** RWD ****************** */
 @media only screen and (max-width: 980px) {
   .about__container {
-    flex-direction: column;
-    height: 100%;
-    max-height: 100%; }
+    flex-direction: column; }
 
   #experience .about__txt {
     margin-bottom: 100px; }
