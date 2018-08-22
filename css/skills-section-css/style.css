@@ -1,5 +1,8 @@
 #skills {
-  min-height: auto; }
+  min-height: auto;
+  padding: 100px 50px 135px; }
+  #skills .section__heading {
+    left: 20px; }
 
 .bg-img__container {
   position: relative;
@@ -69,11 +72,9 @@
   overflow: hidden;
   position: relative;
   text-align: left;
-  -webkit-box-shadow: 0px 10px 25px -9px #1e2542;
-  -moz-box-shadow: 0px 10px 25px -9px #1e2542;
-  box-shadow: 0px 10px 25px -9px #1e2542;
-  outline: 1px solid #fff;
-  outline-offset: -10px; }
+  -webkit-box-shadow: 0px 10px 40px -10px #1e2542;
+  -moz-box-shadow: 0px 10px 40px -10px #1e2542;
+  box-shadow: 0px 10px 40px -10px #1e2542; }
   .skill * {
     -webkit-transition: all 0.25s ease;
     transition: all 0.25s ease; }
@@ -87,7 +88,6 @@
   .skill h3 {
     -webkit-transform: translateY(-100%);
     transform: translateY(-100%);
-    background-color: #1d4996;
     top: 0;
     font-weight: 800;
     letter-spacing: -0.4px;
@@ -98,7 +98,7 @@
   .skill p {
     position: absolute;
     width: 100%;
-    bottom: 0;
+    bottom: 25px;
     padding: 0px 20px;
     opacity: 0;
     text-align: right;

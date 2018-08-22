@@ -110,24 +110,6 @@
 		h5
 			text-align: right
 			margin-bottom: 0
-.hero__heading
-	position: relative
-	padding: 20px 0 0 0
-	font-weight: 700
-	&::after,
-	&::before
-		content: ''
-		position: absolute
-		width: 20px
-		height: 1px
-		left: -21px
-		top: 1px
-		background: $bg-font-color
-	&::before
-		width: 1px
-		height: 20px
-		left: -11px
-		top: -9px
 .hero__layer-inner
 	background-image: url("../../img/svg/window.svg")
 	transform-style: preserve-3d
@@ -146,6 +128,12 @@
 		background-position: left
 
 @media only screen and (max-width: 980px)
+
+	.hero__layer-outer
+		.hero__intro-text
+			h1
+				line-height: 3rem
+
 	#button-js
 		display: none
 
@@ -156,7 +144,7 @@
 	.hamburger__container
 		opacity: 1
 
-@media only screen and (max-width: 500px)
+@media only screen and (max-width: 600px)
 	.hero__intro-text
 		padding: 50px
 

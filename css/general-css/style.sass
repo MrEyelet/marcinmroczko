@@ -13,6 +13,8 @@ body
 		size: 1.2rem
 	p
 		margin-bottom: 25px
+		&:last-child
+			margin-bottom: 0
 	p,a 
 		color: $bg-font-color
 		text-decoration: none
@@ -20,7 +22,7 @@ body
 		border-bottom: 1px dashed $bg-font-color
 
 section
-	// min-height: 100vh
+	min-height: 100vh
 	padding: 100px 50px
 	overflow: hidden
 
@@ -76,25 +78,6 @@ video
 .section__heading-right
 	margin-bottom: 40px
 
-.section__icon-top
-	position: relative
-	margin-top: -10px
-	&::before,
-	&::after
-		content: ""
-		position: absolute
-		width: 20px
-		height: 1px
-		background: #fff
-		bottom: -39%
-		left: -87%
-	&::after
-		width: 1px
-		height: 20px
-		right: 155%
-		bottom: -67%
-		left: auto
-
 .section__icon-bottom
 	text-align: center
 	color: #9edceb
@@ -108,12 +91,13 @@ footer
 
 /* RWD ****************************/
 
-@media only screen and (max-width: 500px)
+@media only screen and (max-width: 600px)
+
 	h1
-		font-size: 2.5rem
+		font-size: 2rem
 	h2, .menu-item
 
-		font-size: 2rem
+		font-size: 1.8rem
 
 	h3
 		font-size: 1.6rem
@@ -122,9 +106,9 @@ footer
 
 	h5, a, body
 
-		font-size: 1rem
-	h6
 		font-size: 0.8rem
+	h6
+		font-size: 0.6rem
 
 	section
 		padding: 0
