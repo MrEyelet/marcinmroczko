@@ -64,6 +64,7 @@
 #experience .about__interactive-box {
   background: #274195;
   min-height: 400px;
+  height: 400px;
   padding: 25px;
   color: #fff;
   -webkit-box-shadow: -15px 15px 50px -10px #1a356b;
