@@ -6,10 +6,12 @@
 .about__txt {
   width: 100%;
   height: 100%;
+  min-height: 100%;
   background: #353795;
+  background: -moz-linear-gradient(left, #353795 0%, #144F96 100%);
   background: -webkit-linear-gradient(left, #353795 0%, #144F96 100%);
   background: -o-linear-gradient(left, #353795 0%, #144F96 100%);
-  background: -webkit-gradient(linear, left top, right top, from(#353795), to(#144F96));
+  background: -ms-linear-gradient(left, #353795 0%, #144F96 100%);
   background: linear-gradient(to right, #353795 0%, #144F96 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 );
   color: #fff; }
@@ -23,12 +25,10 @@
 .about__interactive-box {
   width: 60%;
   margin-left: -23%;
-  -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d; }
+  transform-style: preserve-3d; }
   .about__interactive-box img {
     width: 100%;
-    -webkit-transform: translateZ(20px);
-            transform: translateZ(20px); }
+    transform: translateZ(20px); }
   .about__interactive-box .interactive-box__tile {
     position: relative;
     margin: 10px;
@@ -47,16 +47,12 @@
       .about__interactive-box .interactive-box__tile .interactive-box__tile-overlay a {
         background: rgba(0, 32, 105, 0.95);
         padding: 10px 35px;
-        -webkit-transform: rotateX(90deg) translateY(-40px);
-                transform: rotateX(90deg) translateY(-40px);
+        transform: rotateX(90deg) translateY(-40px);
         opacity: 0;
-        -webkit-transition: 0.25s;
-        -o-transition: 0.25s;
         transition: 0.25s; }
       .about__interactive-box .interactive-box__tile .interactive-box__tile-overlay:hover a {
         opacity: 1;
-        -webkit-transform: rotateX(0deg) translateY(0px);
-                transform: rotateX(0deg) translateY(0px); }
+        transform: rotateX(0deg) translateY(0px); }
   .about__interactive-box .interactive-box__inner-top .interactive-box__tile {
     background-image: url("../../img/birmingham-solicitors.png"); }
   .about__interactive-box .interactive-box__inner-top .interactive-box__tile:nth-of-type(2) {
@@ -73,16 +69,13 @@
   padding: 25px;
   color: #fff;
   -webkit-box-shadow: -15px 15px 50px -10px #1a356b;
+  -moz-box-shadow: -15px 15px 50px -10px #1a356b;
   box-shadow: -15px 15px 50px -10px #1a356b; }
 
 /***************** RWD ****************** */
 @media only screen and (max-width: 980px) {
   .about__container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column; }
+    flex-direction: column; }
 
   #experience .about__txt {
     margin-bottom: 100px; }
@@ -97,19 +90,14 @@
     text-align: center; }
     .about__interactive-box .interactive-box__tile .interactive-box__tile-overlay a {
       opacity: 1;
-      -webkit-transform: rotateX(0deg) translateY(0px);
-              transform: rotateX(0deg) translateY(0px); }
+      transform: rotateX(0deg) translateY(0px); }
 
   .hide-mobile {
     display: none; } }
 @media only screen and (max-width: 500px) {
   .interactive-box__inner-top,
   .interactive-box__inner-bottom {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column; }
+    flex-direction: column; }
 
   .about__interactive-box {
     padding: 50px; }
@@ -118,3 +106,5 @@
 
   .about__txt-inner {
     padding: 100px 50px; } }
+
+/*# sourceMappingURL=style.css.map */
