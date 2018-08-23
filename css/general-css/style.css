@@ -109,7 +109,9 @@ footer {
   h6 {
     font-size: 0.6rem; }
 
-  section {
-    padding: 0; } }
+  #about,
+  #experience,
+  #contact {
+    pading: 0; } }
 
 /*# sourceMappingURL=style.css.map */
