@@ -29,8 +29,3 @@
 .swiper-button-next {
     background-image: url('../../img/svg/right-chevron.svg')!important;
 }
-@media only screen and (min-width: 1440px) {
-    .swiper-pagination {
-        bottom: 100px
-    }
-}
