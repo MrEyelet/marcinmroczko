@@ -86,7 +86,7 @@
 	.about__interactive-box
 		width: 100%
 		margin-left: 0
-		padding: 100px 50px
+		padding: 100px 50px 0
 		text-align: center
 		.interactive-box__tile
 			.interactive-box__tile-overlay a
@@ -94,6 +94,10 @@
 				transform: rotateX(0deg) translateY(0px)
 	.hide-mobile
 		display: none
+
+@media only screen and (max-width: 600px)
+	.about__interactive-box
+		padding: 100px 50px
 
 @media only screen and (max-width: 500px)
 	.interactive-box__inner-top,
