@@ -85,7 +85,7 @@
   .about__interactive-box {
     width: 100%;
     margin-left: 0;
-    padding: 100px 50px 0;
+    padding: 100px 50px;
     text-align: center; }
     .about__interactive-box .interactive-box__tile .interactive-box__tile-overlay a {
       opacity: 1;
