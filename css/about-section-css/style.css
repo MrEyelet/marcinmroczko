@@ -83,8 +83,6 @@
     -webkit-flex-direction: column;
         -ms-flex-direction: column;
             flex-direction: column;
-            min-height: 1000px;
-            height: 1000px;
             -webkit-box-flex: 1;
             -webkit-flex: 1 1 1000px;
                 -ms-flex: 1 1 1000px;
