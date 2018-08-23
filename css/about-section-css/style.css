@@ -116,7 +116,9 @@
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
         -ms-flex-direction: column;
-            flex-direction: column; }
+            flex-direction: column;
+    min-height: 1400px;
+    height: 1400px;}
 
   .about__interactive-box {
     padding: 50px; }
