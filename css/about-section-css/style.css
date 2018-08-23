@@ -84,9 +84,9 @@
         -ms-flex-direction: column;
             flex-direction: column;
             -webkit-box-flex: 1;
-            -webkit-flex: 1 1 1000px;
-                -ms-flex: 1 1 1000px;
-                    flex: 1 1 1000px; }
+            -webkit-flex: 1 1 4000px;
+                -ms-flex: 1 1 4000px;
+                    flex: 1 1 4000px; }
 
   #experience .about__txt {
     margin-bottom: 100px; }
