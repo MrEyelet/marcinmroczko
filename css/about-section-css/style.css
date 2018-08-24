@@ -97,14 +97,10 @@
   .about__interactive-box {
     padding: 100px 50px; } }
 @media only screen and (max-width: 500px) {
-  #experience {
+  #experience .about__txt .about__txt-inner {
     min-height: 1500px; }
-    #experience .about__txt {
-      min-height: 1500px; }
-      #experience .about__txt .about__txt-inner {
-        min-height: 1500px; }
-    #experience .about__interactive-box {
-      min-height: 787px; }
+  #experience .about__interactive-box {
+    min-height: 787px; }
 
   .interactive-box__inner-top {
     flex-direction: column; }
