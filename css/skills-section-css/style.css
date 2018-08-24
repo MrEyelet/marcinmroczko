@@ -9,7 +9,9 @@
       color: #1d4996; }
 
 .bg-img__container {
-  position: relative; }
+  position: relative;
+  z-index: 9;
+  width: 35%; }
   .bg-img__container::before {
     position: absolute;
     content: "";
@@ -25,10 +27,6 @@
     background: -ms-linear-gradient(left, #353795 0%, #144F96 100%);
     background: linear-gradient(to right, #353795 0%, #144F96 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 ); }
-  .bg-img__container .bg-img__container-inner {
-    position: relative;
-    z-index: 9;
-    width: 35%; }
 
 #contact {
   min-height: auto;
