@@ -77,10 +77,10 @@
     flex-direction: column; }
 
   #experience .about__txt {
+    min-height: 780px;
     margin-bottom: 100px; }
   #experience .about__interactive-box {
-    min-height: 740px;
-    height: 740px; }
+    min-height: 740px; }
 
   .about__txt-inner {
     width: 100%; }
@@ -100,8 +100,7 @@
   .about__interactive-box {
     padding: 100px 50px; } }
 @media only screen and (max-width: 500px) {
-  .interactive-box__inner-top,
-  .interactive-box__inner-bottom {
+  .interactive-box__inner-top {
     flex-direction: column; }
 
   .about__interactive-box {
