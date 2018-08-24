@@ -99,9 +99,8 @@
 @media only screen and (max-width: 500px) {
   #experience .about__txt {
     min-height: 810px; }
-
-  .about__interactive-box {
-    min-height: 740px; }
+  #experience .about__interactive-box {
+    min-height: 787px; }
 
   .interactive-box__inner-top {
     flex-direction: column; }
