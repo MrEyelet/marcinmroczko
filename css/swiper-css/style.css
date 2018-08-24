@@ -11,6 +11,7 @@
     background: #fff!important;
 }
 .swiper-pagination {
+    min-height: 18px;
 	bottom: -40px
 }
 .swiper-pagination-clickable .swiper-pagination-bullet {
