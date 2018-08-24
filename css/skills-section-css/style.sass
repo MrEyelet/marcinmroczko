@@ -36,7 +36,12 @@
 		width: 50%
 		height: 100%
 		@include bg-gradient(#353795, #144F96)
+	.bg-img__container
+		&::before
+			top: 0
+			background: $hero-overlay-color
 
+	&::before
 	.bg-img__container-avatar
 		position: absolute
 		top: 50%

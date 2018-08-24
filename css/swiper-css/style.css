@@ -1,22 +1,25 @@
 .swiper-pagination-bullet {   
-    width: 10px!important;
-    height: 10px!important;
+    width: 15px!important;
+    height: 2px!important;
     border-radius: 0!important;
     background: transparent!important;
     border: 2px solid #fff!important;
     opacity: .5!important;
 }
 .swiper-pagination-bullet-active {
+    height: 6px!important;
+    transform: translateY(12%);
 	opacity: 1!important;
     background: #fff!important;
 }
 .swiper-pagination {
+    display:inline-block;
     min-height: 18px;
     background: red;
 	bottom: -40px
 }
 .swiper-pagination-clickable .swiper-pagination-bullet {
-    padding: 5px;
+    /*padding: 5px;*/
     margin: 2px;
 }
 .swiper-button-prev {

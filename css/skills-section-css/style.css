@@ -43,6 +43,9 @@
     background: -ms-linear-gradient(left, #353795 0%, #144F96 100%);
     background: linear-gradient(to right, #353795 0%, #144F96 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 ); }
+  #contact .bg-img__container::before {
+    top: 0;
+    background: rgba(52, 55, 149, 0.65); }
   #contact .bg-img__container-avatar {
     position: absolute;
     top: 50%;
