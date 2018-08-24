@@ -12,6 +12,7 @@
 }
 .swiper-pagination {
     min-height: 18px;
+    background: red;
 	bottom: -40px
 }
 .swiper-pagination-clickable .swiper-pagination-bullet {
