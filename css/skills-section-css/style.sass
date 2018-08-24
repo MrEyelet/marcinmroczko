@@ -12,8 +12,6 @@
 
 .bg-img__container
 	position: relative
-	z-index: 9
-	width: 35%
 	// background: url('../../img/abstract.jpg') no-repeat center /cover fixed
 	&::before
 		position: absolute
@@ -26,10 +24,10 @@
 		bottom: 0
 		// background: $hero-overlay-color
 		@include bg-gradient(#353795, #144F96)
-	// .bg-img__container-inner
-	// 	position: relative
-	// 	z-index: 9
-	// 	width: 35%
+	.bg-img__container-inner
+		position: relative
+		z-index: 9
+		width: 35%
 
 #contact
 	min-height: auto
