@@ -33,7 +33,7 @@
 #contact {
   min-height: auto;
   background: url("../../img/cracow.jpg") no-repeat 300px/cover; }
-  #contact .bg-img__container::before {
+  #contact::before {
     position: absolute;
     content: "";
     width: 100%;
