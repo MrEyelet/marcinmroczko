@@ -149,6 +149,8 @@
     transform: scale(2.5); }
 
 /* RWD *********************************************** */
+@media only screen and (max-width: 1024px) {
+  background: url("../../img/hire-me.jpg") no-repeat -145px/cover; }
 @media only screen and (max-width: 980px) {
   .bg-img__container .bg-img__container-inner {
     width: 100%; }
