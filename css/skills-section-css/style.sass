@@ -40,9 +40,15 @@
 		@include bg-gradient(#353795, #144F96)
 	.bg-img__container
 		&::before
+			position: absolute
+			content: ""
+			width: 100%
+			height: 45%
+			left: 0
 			top: 0
-			height: 100%
-			background: $hero-overlay-color
+			right: 0
+			bottom: 0
+			@include bg-gradient(#353795, #144F96)
 
 	.bg-img__container-avatar
 		position: absolute
