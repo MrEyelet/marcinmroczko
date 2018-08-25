@@ -127,9 +127,6 @@
   .hero__layer-inner {
     background-position: left; } }
 @media only screen and (max-width: 980px) {
-  .hero__layer-outer .hero__intro-text h1 {
-    line-height: 3rem; }
-
   #button-js {
     display: none; }
 
@@ -141,6 +138,9 @@
     opacity: 1; } }
 @media only screen and (max-width: 600px) {
   .hero__intro-text {
-    padding: 50px 20px; } }
+    padding: 50px 20px; }
+
+  .hero__layer-outer .hero__intro-text h1 {
+    line-height: 3rem; } }
 
 /*# sourceMappingURL=style.css.map */
