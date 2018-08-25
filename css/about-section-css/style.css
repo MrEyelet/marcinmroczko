@@ -99,6 +99,8 @@
 
   .interactive-box__inner-top {
     flex-direction: column; }
+    .interactive-box__inner-top .interactive-box__tile {
+      margin: 20px; }
 
   .about__txt-inner {
     padding: 100px 50px; } }
