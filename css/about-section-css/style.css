@@ -68,7 +68,7 @@
 #experience .about__interactive-box {
   background: #274195;
   min-height: 400px;
-  padding: 25px;
+  padding: 100px 25px;
   color: #fff;
   -webkit-box-shadow: -15px 15px 50px -10px #1a356b;
   -moz-box-shadow: -15px 15px 50px -10px #1a356b;
@@ -78,9 +78,6 @@
 @media only screen and (max-width: 980px) {
   .about__container {
     flex-direction: column; }
-
-  #experience .about__txt {
-    margin-bottom: 100px; }
 
   .about__txt-inner {
     width: 100%; }
