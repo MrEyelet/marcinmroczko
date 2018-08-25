@@ -1,181 +1,82 @@
-#skills {
-  min-height: auto;
-  padding: 0 50px 135px; }
-  #skills .section__heading {
-    left: 50%;
-    transform: translateX(-50%);
-    width: 240px; }
-    #skills .section__heading h2 {
-      color: #1d4996; }
+/*
+Error: Invalid CSS after "100%%": expected expression (e.g. 1px, bold), was ""
+        on line 46 of style.sass
 
-.bg-img__container {
-  position: relative; }
-  .bg-img__container::before {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 45%;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: #353795;
-    background: -moz-linear-gradient(left, #353795 0%, #144F96 100%);
-    background: -webkit-linear-gradient(left, #353795 0%, #144F96 100%);
-    background: -o-linear-gradient(left, #353795 0%, #144F96 100%);
-    background: -ms-linear-gradient(left, #353795 0%, #144F96 100%);
-    background: linear-gradient(to right, #353795 0%, #144F96 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 ); }
-  .bg-img__container .bg-img__container-inner {
-    position: relative;
-    z-index: 9;
-    width: 35%; }
+41: 	.bg-img__container
+42: 		&::before
+43: 			position: absolute
+44: 			content: ""
+45: 			width: 100%
+46: 			height: 100%%
+47: 			left: 0
+48: 			top: 0
+49: 			right: 0
+50: 			bottom: 0
+51: 			background: $hero-overlay-color
 
-#contact {
-  min-height: auto;
-  background: url("../../img/cracow.jpg") no-repeat 300px/cover; }
-  #contact::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 100%;
-    background: #353795;
-    background: -moz-linear-gradient(left, #353795 0%, #144F96 100%);
-    background: -webkit-linear-gradient(left, #353795 0%, #144F96 100%);
-    background: -o-linear-gradient(left, #353795 0%, #144F96 100%);
-    background: -ms-linear-gradient(left, #353795 0%, #144F96 100%);
-    background: linear-gradient(to right, #353795 0%, #144F96 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 ); }
-  #contact .bg-img__container::before {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 45%;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    background: #353795;
-    background: -moz-linear-gradient(left, #353795 0%, #144F96 100%);
-    background: -webkit-linear-gradient(left, #353795 0%, #144F96 100%);
-    background: -o-linear-gradient(left, #353795 0%, #144F96 100%);
-    background: -ms-linear-gradient(left, #353795 0%, #144F96 100%);
-    background: linear-gradient(to right, #353795 0%, #144F96 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 ); }
-  #contact .bg-img__container-avatar {
-    position: absolute;
-    top: 50%;
-    left: 140%;
-    transform: translate(-50%, -50%);
-    width: 300px;
-    height: 300px;
-    background: #1d4996;
-    border-radius: 50%;
-    -webkit-box-shadow: 10px 0px 20px -8px #133183;
-    -moz-box-shadow: 10px 0px 20px -8px #133183;
-    box-shadow: 10px 0px 20px -8px #133183; }
-    #contact .bg-img__container-avatar img {
-      overflow: hidden;
-      width: 100%;
-      height: 100%;
-      border-radius: 50%;
-      border: 20px solid #1c4996; }
-
-.skill {
-  background: #353795;
-  background: -moz-linear-gradient(left, #353795 0%, #144F96 100%);
-  background: -webkit-linear-gradient(left, #353795 0%, #144F96 100%);
-  background: -o-linear-gradient(left, #353795 0%, #144F96 100%);
-  background: -ms-linear-gradient(left, #353795 0%, #144F96 100%);
-  background: linear-gradient(to right, #353795 0%, #144F96 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 );
-  color: #fff;
-  min-width: 350px;
-  min-height: 350px;
-  height: 350px;
-  overflow: hidden;
-  position: relative;
-  text-align: left;
-  -webkit-box-shadow: 0px 10px 40px -10px #1e2542;
-  -moz-box-shadow: 0px 10px 40px -10px #1e2542;
-  box-shadow: 0px 10px 40px -10px #1e2542; }
-  .skill * {
-    -webkit-transition: all 0.25s ease;
-    transition: all 0.25s ease; }
-  .skill figcaption {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 1; }
-  .skill h3 {
-    -webkit-transform: translateY(-100%);
-    transform: translateY(-100%);
-    top: 0;
-    font-weight: 800;
-    letter-spacing: -0.4px;
-    margin: 0;
-    padding: 10px 20px;
-    position: absolute;
-    width: 100%; }
-  .skill p {
-    position: absolute;
-    width: 100%;
-    bottom: 25px;
-    padding: 0px 20px;
-    opacity: 0;
-    text-align: right;
-    -webkit-transition-delay: 0.15s;
-    transition-delay: 0.15s; }
-  .skill .hover {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    align-items: center;
-    background-color: rgba(23, 77, 150, 0.8);
-    display: flex;
-    font-size: 65px;
-    justify-content: center;
-    opacity: 0; }
-  .skill:hover .hover,
-  .skill:hover p {
-    opacity: 1; }
-  .skill:hover h3 {
-    -webkit-transform: translateY(0%);
-    transform: translateY(0%); }
-  .skill:hover img {
-    transform: scale(2.5); }
-
-/* RWD *********************************************** */
-@media only screen and (max-width: 980px) {
-  .bg-img__container .bg-img__container-inner {
-    width: 100%; }
-
-  #contact::after {
-    width: 100%; }
-  #contact .bg-img__container-avatar {
-    position: relative;
-    top: auto;
-    left: 50%;
-    transform: translate(-50%); }
-
-  .skill .hover,
-  .skill p {
-    opacity: 1; }
-  .skill h3 {
-    -webkit-transform: translateY(0%);
-    transform: translateY(0%); }
-  .skill img {
-    transform: scale(2.5); } }
-@media only screen and (max-width: 500px) {
-  .bg-img__container {
-    padding: 100px 50px; }
-
-  .skill {
-    min-width: 225px; } }
-
-/*# sourceMappingURL=style.css.map */
+Backtrace:
+style.sass:46
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/scss/parser.rb:1278:in `expected'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/script/lexer.rb:231:in `expected!'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/script/parser.rb:724:in `assert_expr'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/script/parser.rb:280:in `times_div_or_mod'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/script/parser.rb:272:in `plus_or_minus'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/script/parser.rb:272:in `relational'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/script/parser.rb:272:in `eq_or_neq'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/script/parser.rb:272:in `and_expr'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/script/parser.rb:272:in `or_expr'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/script/parser.rb:474:in `space'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/script/parser.rb:415:in `interpolation'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/script/parser.rb:339:in `expr'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/script/parser.rb:722:in `assert_expr'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/script/parser.rb:68:in `parse'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/script/parser.rb:228:in `parse'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/script.rb:27:in `parse'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/engine.rb:1177:in `parse_script'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/engine.rb:749:in `parse_property'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/engine.rb:708:in `parse_property_or_rule'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/engine.rb:667:in `parse_line'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/engine.rb:540:in `build_tree'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/engine.rb:559:in `block in append_children'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/engine.rb:558:in `each'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/engine.rb:558:in `append_children'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/engine.rb:549:in `block in build_tree'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/engine.rb:542:in `each'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/engine.rb:542:in `build_tree'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/engine.rb:559:in `block in append_children'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/engine.rb:558:in `each'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/engine.rb:558:in `append_children'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/engine.rb:549:in `block in build_tree'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/engine.rb:542:in `each'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/engine.rb:542:in `build_tree'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/engine.rb:559:in `block in append_children'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/engine.rb:558:in `each'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/engine.rb:558:in `append_children'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/engine.rb:549:in `block in build_tree'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/engine.rb:542:in `each'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/engine.rb:542:in `build_tree'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/engine.rb:559:in `block in append_children'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/engine.rb:558:in `each'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/engine.rb:558:in `append_children'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/engine.rb:417:in `_to_tree'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:320:in `block in watch'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"100%%\": expected expression (e.g. 1px, bold), was \"\"\A         on line 46 of style.sass\A \A 41: 	.bg-img__container\A 42: 		&::before\A 43: 			position: absolute\A 44: 			content: \"\"\A 45: 			width: 100%\A 46: 			height: 100%%\A 47: 			left: 0\A 48: 			top: 0\A 49: 			right: 0\A 50: 			bottom: 0\A 51: 			background: $hero-overlay-color"; }
