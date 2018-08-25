@@ -96,9 +96,6 @@
 
   .hide-mobile {
     display: none; } }
-@media only screen and (max-width: 600px) {
-  .about__interactive-box {
-    padding: 100px 50px; } }
 @media only screen and (max-width: 500px) {
   #experience .about__interactive-box {
     min-height: 100%; }
