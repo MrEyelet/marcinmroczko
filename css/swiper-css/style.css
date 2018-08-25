@@ -36,3 +36,12 @@
     top: auto!important;
     bottom: -51px!important;
 }
+@media only screen and (max-width: 600px) {
+    .swiper-pagination {
+        bottom: -105px
+    }
+    .swiper-button-next, .swiper-button-prev {
+        bottom: -116px!important;
+    }
+}
+
