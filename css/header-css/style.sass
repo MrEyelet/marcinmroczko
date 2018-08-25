@@ -86,7 +86,7 @@
 				&:hover
 					transform: translateY(-5px)
 
-.hero__layer-outer,
+// .hero__layer-outer,
 .hero__layer-inner	
 	position: absolute
 	top: 0
@@ -97,10 +97,11 @@
 	height: 100%
 	background-size: cover
 	background-position: left
-	background-image: url("../../img/svg/square-hole.svg")
+	// background-image: url("../../img/svg/square-hole.svg")
 .hero__layer-outer
 	overflow: hidden
 	transition: all .7s ease-in-out
+	@include bg-gradient(#353795, #144F96)
 	color: $bg-font-color
 	.hero__intro-text
 		transform: translateZ(50px)

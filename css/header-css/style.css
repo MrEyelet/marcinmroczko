@@ -83,7 +83,6 @@
       .hero__menu-container .hero__menu-list .hero__menu-items svg:hover {
         transform: translateY(-5px); }
 
-.hero__layer-outer,
 .hero__layer-inner {
   position: absolute;
   top: 0;
@@ -93,12 +92,18 @@
   width: 101%;
   height: 100%;
   background-size: cover;
-  background-position: left;
-  background-image: url("../../img/svg/square-hole.svg"); }
+  background-position: left; }
 
 .hero__layer-outer {
   overflow: hidden;
   transition: all 0.7s ease-in-out;
+  background: #353795;
+  background: -moz-linear-gradient(left, #353795 0%, #144F96 100%);
+  background: -webkit-linear-gradient(left, #353795 0%, #144F96 100%);
+  background: -o-linear-gradient(left, #353795 0%, #144F96 100%);
+  background: -ms-linear-gradient(left, #353795 0%, #144F96 100%);
+  background: linear-gradient(to right, #353795 0%, #144F96 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 );
   color: #fff; }
   .hero__layer-outer .hero__intro-text {
     transform: translateZ(50px);
