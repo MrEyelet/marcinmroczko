@@ -33,6 +33,6 @@
     background-image: url('../../img/svg/arrow-right.svg')!important;
 }
 .swiper-button-next, .swiper-button-prev {
-    top: auto;
-    bottom: -56px;
+    top: auto!important;
+    bottom: -56px!important;
 }
