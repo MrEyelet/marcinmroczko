@@ -83,6 +83,7 @@
       .hero__menu-container .hero__menu-list .hero__menu-items svg:hover {
         transform: translateY(-5px); }
 
+.hero__layer-outer,
 .hero__layer-inner {
   position: absolute;
   top: 0;
@@ -97,6 +98,7 @@
 .hero__layer-outer {
   overflow: hidden;
   transition: all 0.7s ease-in-out;
+  background-position: center;
   background: #353795;
   background: -moz-linear-gradient(left, #353795 0%, #144F96 100%);
   background: -webkit-linear-gradient(left, #353795 0%, #144F96 100%);
