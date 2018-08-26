@@ -26,7 +26,7 @@ module.exports = function(grunt) {
 				'../js/appear-plugin.min.js':'../js/appear-plugin.js',
 				'../js/main-functions.min.js':'../js/main-functions.js',
 				'../js/mobile-scripts.min.js':'../js/mobile-scripts.js',
-				'../jsswiper.min.js':'../js/swiper.js'
+				'../js/swiper.min.js':'../js/swiper.js'
 				}
 			}
 		}
