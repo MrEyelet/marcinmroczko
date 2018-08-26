@@ -15,9 +15,25 @@ module.exports = function(grunt) {
 				'../css/swiper-css/style.min.css':'../css/swiper-css/style.css'
 				}
 			}
+		},
+		uglify: {
+			options: {
+				manage: false
+			},
+			dist:{
+				files: {
+				'../js/preloader.min.js':'../js/preloader.js',
+				'../js/appear-plugin.min.js':'../js/appear-plugin.js',
+				'../js/main-functions.min.js':'../js/main-functions.js',
+				'../js/mobile-scripts.min.js':'../js/mobile-scripts.js',
+				'../jsswiper.min.js':'../js/swiper.js'
+				}
+			}
 		}
+
 	});
 
 	grunt.loadNpmTasks('grunt-contrib-cssmin');
-	grunt.registerTask('default', ['cssmin']);
+	grunt.loadNpmTasks('grunt-contrib-uglify');
+	grunt.registerTask('default', ['cssmin', 'uglify']);
 }
