@@ -86,7 +86,8 @@
     width: 100%;
     margin-left: 0;
     padding: 100px 50px 0;
-    text-align: center; }
+    text-align: center;
+    box-shadow: none; }
     .about__interactive-box .interactive-box__tile .interactive-box__tile-overlay a {
       opacity: 1;
       transform: rotateX(0deg) translateY(0px); }
