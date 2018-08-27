@@ -27,6 +27,10 @@
   margin-bottom: 0; }
   #button-js:hover {
     cursor: pointer; }
+    #button-js:hover svg {
+      transform: rotate(180deg); }
+  #button-js svg {
+    transition: 0.3s; }
 
 #myVideo {
   position: absolute;
