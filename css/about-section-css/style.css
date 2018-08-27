@@ -75,9 +75,9 @@
   box-shadow: -15px 15px 50px -10px #1a356b; }
 
 /***************** RWD ****************** */
-.about__interactive-box img {
-  width: 95%; }
-
+@media only screen and (min-width: 1440px) {
+  .about__interactive-box img {
+    width: 95%; } }
 @media only screen and (max-width: 980px) {
   #experience .about__interactive-box {
     box-shadow: none; }
