@@ -84,6 +84,7 @@ video
 
 footer
 	@include bg-gradient(#353795, #144F96)
+	padding: 0 50px
 	font-size: 12px
 	text-align: center
 	p
@@ -113,3 +114,7 @@ footer
 	#about,
 	#experience
 		padding: 0
+
+@media only screen and (max-width: 500px)
+	footer
+		flex-direction: column

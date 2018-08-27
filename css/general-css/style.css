@@ -84,6 +84,7 @@ footer {
   background: -ms-linear-gradient(left, #353795 0%, #144F96 100%);
   background: linear-gradient(to right, #353795 0%, #144F96 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 );
+  padding: 0 50px;
   font-size: 12px;
   text-align: center; }
   footer p {
@@ -112,5 +113,8 @@ footer {
   #about,
   #experience {
     padding: 0; } }
+@media only screen and (max-width: 500px) {
+  footer {
+    flex-direction: column; } }
 
 /*# sourceMappingURL=style.css.map */
