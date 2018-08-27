@@ -76,8 +76,11 @@
 
 /***************** RWD ****************** */
 @media only screen and (min-width: 1440px) {
-  .about__interactive-box img {
-    width: 95%; } }
+  .about__interactive-box {
+    width: 61%;
+    margin-left: -22%; }
+    .about__interactive-box img {
+      width: 95%; } }
 @media only screen and (max-width: 980px) {
   #experience .about__interactive-box {
     box-shadow: none; }
