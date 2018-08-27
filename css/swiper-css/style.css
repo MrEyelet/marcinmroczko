@@ -15,18 +15,10 @@
     background: #fff!important;
 }
 .swiper-pagination {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
+    left: 50%;
+    -webkit-transform:translateX(-50%);
+    -ms-transform:translateX(-50%);
+            transform:translateX(-50%);
     bottom: -40px
 }
 .swiper-pagination-clickable .swiper-pagination-bullet {
