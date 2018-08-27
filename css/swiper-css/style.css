@@ -34,19 +34,24 @@
 }
 .swiper-button-prev {
     left: -35px!important;
+    background-image: url('../../img/svg/arrow-left.svg')!important;
+}
+.swiper-button-prev:hover {
+    left: -40px!important;
 }
 .swiper-button-next {
     right: -35px!important;
+    background-image: url('../../img/svg/arrow-right.svg')!important;
+}
+.swiper-button-next:hover {
+    right: -40px!important;
 }
 .swiper-button-next,
 .swiper-button-prev {
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
     margin-top: 0!important;
-}
-.swiper-button-prev {
-    background-image: url('../../img/svg/arrow-left.svg')!important;
-}
-.swiper-button-next {
-    background-image: url('../../img/svg/arrow-right.svg')!important;
 }
 @media only screen and (max-width: 600px) {
     .swiper-pagination {
