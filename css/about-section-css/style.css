@@ -75,7 +75,13 @@
   box-shadow: -15px 15px 50px -10px #1a356b; }
 
 /***************** RWD ****************** */
+.about__interactive-box img {
+  width: 95%; }
+
 @media only screen and (max-width: 980px) {
+  #experience .about__interactive-box {
+    box-shadow: none; }
+
   .about__container {
     flex-direction: column; }
 
@@ -86,8 +92,7 @@
     width: 100%;
     margin-left: 0;
     padding: 100px 50px 0;
-    text-align: center;
-    box-shadow: none; }
+    text-align: center; }
     .about__interactive-box .interactive-box__tile .interactive-box__tile-overlay a {
       opacity: 1;
       transform: rotateX(0deg) translateY(0px); }
