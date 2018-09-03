@@ -51,9 +51,12 @@
       .about__interactive-box .interactive-box__tile .interactive-box__tile-overlay a {
         background: rgba(0, 32, 105, 0.95);
         padding: 10px 35px;
+        margin: 0 5px;
+        font-size: 0.8rem;
         -webkit-transform: rotateX(90deg) translateY(-40px);
                 transform: rotateX(90deg) translateY(-40px);
         opacity: 0;
+        text-transform: uppercase;
         -webkit-transition: 0.25s;
         -o-transition: 0.25s;
         transition: 0.25s; }
