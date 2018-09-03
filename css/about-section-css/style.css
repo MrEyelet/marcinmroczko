@@ -65,13 +65,13 @@
         -webkit-transform: rotateX(0deg) translateY(0px);
                 transform: rotateX(0deg) translateY(0px); }
   .about__interactive-box .interactive-box__inner .interactive-box__tile {
-    background-image: url("../../img/birmingham-solicitors.png"); }
-  .about__interactive-box .interactive-box__inner .interactive-box__tile:nth-of-type(2) {
-    background-image: url("../../img/michael-foster.png"); }
-  .about__interactive-box .interactive-box__inner:nth-of-type(2) .interactive-box__tile {
     background-image: url("../../img/axios.jpg"); }
+  .about__interactive-box .interactive-box__inner .interactive-box__tile:nth-of-type(2) {
+    background-image: url("../../img/converter.jpg"); }
+  .about__interactive-box .interactive-box__inner:nth-of-type(2) .interactive-box__tile {
+    background-image: url("../../img/birmingham-solicitors.png"); }
     .about__interactive-box .interactive-box__inner:nth-of-type(2) .interactive-box__tile:nth-of-type(2) {
-      background-image: url("../../img/converter.jpg"); }
+      background-image: url("../../img/michael-foster.png"); }
   .interactive-box__inner {
     margin-bottom: 25px;}
 #experience .about__interactive-box {
