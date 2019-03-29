@@ -8,15 +8,16 @@
     <meta name="author" content="Web Developer and UI/UX designer - Marcin Mroczko">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i|Poppins:400,400i,700,700i,900,900i&amp;subset=latin-ext" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/preloader-css/style.min.css">
+<!--     <link rel="stylesheet" type="text/css" href="css/preloader-css/style.min.css">
     <link rel="stylesheet" type="text/css" href="css/reset-css/style.css">
     <link rel="stylesheet" type="text/css" href="css/flex-grid/style.min.css">
     <link rel="stylesheet" type="text/css" href="css/general-css/style.min.css">
-    <link rel="stylesheet" type="text/css" href="css/header-css/style.min.css">
-    <link rel="stylesheet" type="text/css" href="css/about-section-css/style.min.css">
-    <link rel="stylesheet" type="text/css" href="css/skills-section-css/style.min.css">
-    <link rel="stylesheet" type="text/css" href="css/swiper-css/style.min.css">
-    <link rel="stylesheet" type="text/css" href="css/js-classes/style.min.css">
+    <link rel="stylesheet" type="text/css" href="css/header-css/style.min.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="css/about-section-css/style.min.css"> -->
+<!--     <link rel="stylesheet" type="text/css" href="css/skills-section-css/style.min.css">
+    <link rel="stylesheet" type="text/css" href="css/swiper-css/style.min.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="css/js-classes/style.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/dist/built.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"></script>
 </head>
@@ -30,7 +31,6 @@
 		<div class="hero__top-bar fx-container fx-space-between fx-centered-v">
 			<a href="#top"><img class="hero__top-bar__left" src="img/svg/logo-oswald.png"></a>
 			<div class="hero__top-bar__right fx-container fx-centered-v">
-       <h5 id="button-js"><i class="fas fa-long-arrow-alt-right"></i> Find more</h5>
        <span class="hamburger__container">
         <div class="hamburger__bar hamburger__top"></div>
         <div class="hamburger__bar hamburger__middle"></div>
@@ -61,13 +61,15 @@
 	  <div class="hero__layer-outer">
       <div class="hero__layer-inner fx-container fx-centered" data-tilt data-tilt-reverse="true" data-tilt-perspective="1000" data-tilt-max="15">
         <div class="hero__intro-text">
-        <h1 class="hero__heading">Hi ! I'm Marcin,<br>
-          <span class="hero__subheading">a Web Developer<br>& UX/UI Designer</span>
+        <h1 class="hero__heading">Hi! I'm Marcin,<br>
+          <span class="hero__subheading">a <span class="hero__title-elem">Front End </span><span class="hero__new-line-mobile">Developer</span><span class="hero__br">& UI Designer</span>
         </h1>
         <h5>I live in Cracow.</h5>
+        <button id="button-js" class="hero__btn">Find out more</button>
       </div>
       </div>
     </div>
+    <div class="scroll__indicator"></div>
 	</header>
   <main>
   	<section id="about" class="about__container fx-container fx-centered">
@@ -87,7 +89,7 @@
               </div>
             </div>
           </div>
-          <p>Hi, my name is Marcin Mroczko. "Oczko" in Polish means little eye so this is why eye icon appears in my logo <span class="hide-mobile">and also here next to the right</span> :)</p>
+          <p>Hi, my name is Marcin Mroczko. "Oczko" in Polish means little eye so this is why eye icon appears in my logo <span class="hide-mobile">and also here next to the right. Hover it if you like</span> :)</p>
           <p>I create functional and aesthetic websites using various web technologies. I am constantly improving my technical skills and I am motivated to continue learning. I am happy to develop my passion by creating interesting projects.</p>
           <p>Outside of work I also like: city-bike, swimming, eat health and fly my drone <img id="drone" src="img/svg/drone-icon.svg"></p>
       </div>
@@ -149,7 +151,7 @@
               <img src="img/svg/git-logo.svg" />
               <figcaption>
                 <h3>GIT</h3>
-                <p>Knowledge of basic commands enabling work with repository.</p>
+                <p>Knowledge of commands enabling work with the team and remote repositories.</p>
               </figcaption>
               <div class="hover"></div>
             </figure>
@@ -189,7 +191,7 @@
               <img src="img/svg/sass.svg" />
               <figcaption>
                 <h3>SASS</h3>
-                <p>I don't use it commercially but i know how to use variables, nesting, mixins.</p>
+                <p>I use this to work faster and more efficiently.</p>
               </figcaption>
               <div class="hover"></div>
             </figure>
@@ -200,6 +202,16 @@
               <figcaption>
                 <h3>WORDPRESS</h3>
                 <p>I use this CMS to create websites, blogs and landing pages.</p>
+              </figcaption>
+              <div class="hover"></div>
+            </figure>
+          </div>
+          <div class="swiper-slide fx-container fx-centered">
+            <figure class="skill fx-container fx-centered">
+              <img src="img/svg/grunt-logo.svg" />
+              <figcaption>
+                <h3>GRUNT</h3>
+                <p>I automate my work using taskrunner making less work to do when performing repetitive tasks.</p>
               </figcaption>
               <div class="hover"></div>
             </figure>
@@ -228,16 +240,16 @@
               </div>
             </div>
           </div>
-          <p>I have commercial experience currently working in Zaliet. I develop websites for small law firms to efficiently and effectively serve their clients and earn more money.</p>
+          <p>I work in Owls Department - small Polish softwarehouse. I develop websites for wide range of companies to efficiently and effectively serve their clients and earn more money.</p>
 
-          <p>Features like instruction forms, online appointment booking and online payments transform lawfirm website into a useful client portal that puts firm above the competition.</p>
+          <p>I love developing front-end. I translate design projects into carefully prepared code.</p>
 
-          <p>I have experience in HTML,CSS, JS and WP. In addition to constantly improving skills in this direction, I would also like to learn new skills and grow myself as a web developer. Moreover I develop myself in UX/UI design. You can find my work on <a href="https://dribbble.com/marcin-mroczko" target="_blank" class="link">dribbble</a>.</p>
+          <p>I have experience in HTML,CSS, JS and WP. In addition to constantly improving skills in this direction, I would also like to learn new skills and grow myself as a front-end developer. Moreover I develop myself in UX/UI design. You can find my work on <a href="https://dribbble.com/marcin-mroczko" target="_blank" class="link">dribbble</a>.</p>
       </div>
       </div>
       <div class="about__interactive-box">
           <h2>My github projects</h2>
-          <div class="interactive-box__inner fx-container">
+          <div class="interactive-box__inner-top fx-container">
             <div class="interactive-box__tile fx-flex1">
               <div class="interactive-box__tile-overlay fx-container fx-centered">
                 <a href="https://mreyelet.github.io/react-axios/" target="_blank" class="fx-container fx-centered button">live</a> <a href="https://github.com/MrEyelet/react-axios" target="_blank" class="fx-container fx-centered button"><i class="fab fa-github" aria-hidden="true"></i></a>
@@ -250,7 +262,7 @@
             </div>
           </div>
           <h2>My client's live websites</h2>
-          <div class="interactive-box__inner fx-container">
+          <div class="interactive-box__inner-bottom fx-container">
             <div class="interactive-box__tile fx-flex1">
               <div class="interactive-box__tile-overlay fx-container fx-centered">
                 <a href="http://www.birminghamsolicitorsltd.com/" target="_blank" class="fx-container fx-centered button">live</a>
@@ -299,7 +311,7 @@
           <li><a href="https://dribbble.com/marcin-mroczko" target="_blank"><i class="fab fa-dribbble" aria-hidden="true"></i></a></li>
           <li><a href="mailto:marcin.adam.mroczko@gmail.com"><i class="far fa-envelope" aria-hidden="true"></i></a></li>
         </ul>
-    <p>Marcin Mroczko Copyright 2018 &copy;</p>
+    <p>Marcin Mroczko Copyright 2019 &copy;</p>
   </footer>
 <script src="https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>

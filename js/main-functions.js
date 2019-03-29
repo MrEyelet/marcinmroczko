@@ -10,10 +10,12 @@
 
       function addClassesToHeader() {
         $('.hero__top-bar').addClass('sticky');
+        $('.hero__top-bar__left').addClass('show');
       }
 
       function removeClassesFromHeader() {
         $('.hero__top-bar').removeClass('sticky');
+        $('.hero__top-bar__left').removeClass('show');
         $('.hero__menu-container').removeClass('hero__menu-container--show');
       }
 

@@ -30,8 +30,10 @@
 	.interactive-box__tile
 		position: relative
 		margin: 10px
-		min-height: 260px
-		height: 260px
+		// min-height: 260px
+		// height: 260px
+		min-height: 160px
+		height: 160px
 		background-size: cover
 		border: 5px solid $bg-font-color
 		.interactive-box__tile-overlay
@@ -47,6 +49,8 @@
 				background: $hero-menu-continer-color
 				padding: 10px 35px
 				transform: rotateX(90deg) translateY(-40px)
+				margin: 0 5px
+				font-size: .8rem
 				opacity: 0
 				transition: .25s
 			&:hover
@@ -54,27 +58,29 @@
 					opacity: 1
 					transform: rotateX(0deg) translateY(0px)
 	.interactive-box__inner-top
+		margin-bottom: 50px
 		.interactive-box__tile
-			background-image:  url('../../img/birmingham-solicitors.png')
+			background-image:  url('../../img/axios.jpg')
 		.interactive-box__tile
 			&:nth-of-type(2)
-				background-image:  url('../../img/michael-foster.png')
+				background-image:  url('../../img/converter.jpg')
 
 	.interactive-box__inner-bottom
 		.interactive-box__tile
-			background-image: url('../../img/jubrochamata.png')
+			background-image: url('../../img/birmingham-solicitors.png')
 			&:nth-of-type(2)
-				background-image:  url('../../img/accounting.png')
+				background-image:  url('../../img/michael-foster.png')
 
 #experience
 	.about__interactive-box
 		background: #274195
 		min-height: 400px
-		padding: 100px 25px
+		padding: 50px 25px
 		color: $bg-font-color
 		-webkit-box-shadow: -15px 15px 50px -10px #1a356b
 		-moz-box-shadow: -15px 15px 50px -10px #1a356b
 		box-shadow: -15px 15px 50px -10px #1a356b
+		text-align: center
 
 
 /***************** RWD *******************/
@@ -84,10 +90,15 @@
 		margin-left: -22%
 		img
 			width: 95%
+@media only screen and (max-width: 1180px)
+	.interactive-box__inner
+		flex-direction: column
 @media only screen and (max-width: 980px)
 	#experience
 		.about__interactive-box
 			box-shadow: none
+			.interactive-box__inner
+				flex-direction: row
 	.about__container
 		flex-direction: column
 	.about__txt-inner
@@ -108,6 +119,8 @@
 	#experience
 		.about__interactive-box
 			min-height: 100%
+			.interactive-box__inner
+				flex-direction: column
 	.interactive-box__inner-top
 		flex-direction: column
 		.interactive-box__tile

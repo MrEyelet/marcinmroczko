@@ -19,16 +19,45 @@
 		bottom: 0
 		background: $hero-overlay-color
 
-#button-js
+.scroll__indicator
+	display: block
+	width: 24px
+	height: 40px
+	margin-left: -12px
+	text-indent: -99999px
+	border: 2px solid #fff
+	border-radius: 100px
+	box-sizing: border-box
 	position: absolute
-	top: 0
-	right: 10px
-	padding: 10px
-	color: $bg-font-color
-	z-index: 9
-	margin-bottom: 0
-	&:hover
-		cursor: pointer
+	right: 58px
+	bottom: 28px
+	transition: opacity .2s ease
+	z-index: 0
+	transform: scale(1.8)
+	&:before
+		content: ''
+		width: 6px
+		height: 6px
+		margin-left: -3px
+		background-color: #fff
+		border-radius: 100%
+		position: absolute
+		top: 6px
+		left: 50%
+		animation: scrolling 2s infinite ease
+	
+@keyframes scrolling
+	0%
+		top: 6px
+		opacity: 1
+	10%	
+		top: 6px
+		opacity: 1
+	90%
+		opacity: 0
+	100%
+		top: 24px
+		opacity: 0
 
 #myVideo
 	position: absolute
@@ -38,12 +67,13 @@
 
 .hero__top-bar
 	position: relative
-	padding: 20px
+	padding: 20px 50px
 	z-index: 99
 	transition: 1s
 	.hero__top-bar__left
 		width: 150px
 		height: 25px
+		display: none
 
 .hamburger__container
 	opacity: 0
@@ -80,6 +110,7 @@
 			transition: .3s
 			&:hover
 				letter-spacing: 8px
+				color: $color-decoration
 	svg
 		font-size: 1.2rem
 		margin: 0 10px
@@ -102,16 +133,61 @@
 	overflow: hidden
 	transition: all .7s ease-in-out
 	background-position: center
+	z-index: 9
 	@include bg-gradient(#353795, #144F96)
 	color: $bg-font-color
 	.hero__intro-text
 		transform: translateZ(50px)
 		z-index: 9
+		text-align: right
+		.hero__title-elem
+			color: $color-decoration
+		.hero__br 
+			display: block
+
 		h1
 			line-height: 4rem
+			text-align: left
 		h5
 			text-align: right
 			margin-bottom: 0
+		.hero__btn
+			background: transparent
+			color: $bg-font-color
+			border: 2px solid $bg-font-color
+			box-shadow: none
+			padding: 10px 33px
+			margin-top: 25px
+			position: relative
+			overflow: hidden
+			cursor: pointer
+			// background: rgba(14,32,54, 0.6);
+			animation: shadow-pulse 1.5s infinite
+			&:hover
+				color: $decorative-color
+				cursor: pointer
+			&::before
+				content: ''
+				display: block
+				background: $bg-font-color
+				position: absolute
+				width: 100%
+				height: 100%
+				top: 0
+				left: -100%
+				transition: 0.3s
+				z-index: -1
+			&:hover:before
+				left: 0
+
+@keyframes shadow-pulse
+	0%
+		box-shadow: 0 0 0 0px rgba(255,255,255,0.2)
+
+	100%
+		box-shadow: 0 0 0 35px rgba(255,255,255,0)
+
+
 .hero__layer-inner
 	background-image: url("../../img/svg/square-tile.svg")
 	transform-style: preserve-3d
@@ -119,7 +195,15 @@
 
 /* RWD ****************************/
 
+@media only screen and (max-width: 1180px)
+	.hero__new-line-mobile
+		display: block
+
 @media only screen and (max-width: 1024px)
+	.hero__top-bar
+		.hero__top-bar__left
+			display: block
+
 	// .hero__layer-outer,
 	// .hero__layer-inner
 	// 	background-position: -110px
@@ -130,6 +214,11 @@
 		background-position: left
 
 @media only screen and (max-width: 980px)
+	.scroll__indicator
+		display: none
+
+	.hero__new-line-mobile
+		display: inline
 
 	#button-js
 		display: none
@@ -143,7 +232,7 @@
 
 @media only screen and (max-width: 600px)
 	.hero__intro-text
-		padding: 50px 20px
+		padding: 50px
 	.hero__layer-outer
 		.hero__intro-text
 			h1

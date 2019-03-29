@@ -15,10 +15,10 @@
     background: #fff!important;
 }
 .swiper-pagination {
-    left: 50%;
+/*    left: 50%;
     -webkit-transform:translateX(-50%);
     -ms-transform:translateX(-50%);
-            transform:translateX(-50%);
+            transform:translateX(-50%);*/
     bottom: -40px
 }
 .swiper-pagination-clickable .swiper-pagination-bullet {
@@ -47,7 +47,7 @@
 }
 @media only screen and (max-width: 600px) {
     .swiper-pagination {
-        bottom: -105px
+        bottom: -105px;
+        bottom: -105px;
     }
 }
-

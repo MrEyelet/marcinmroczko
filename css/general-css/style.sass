@@ -19,7 +19,21 @@ body
 		color: $bg-font-color
 		text-decoration: none
 	.link
+		position: relative
 		border-bottom: 1px dashed $bg-font-color
+		&:before 
+			content: ''
+			position: absolute
+			width: 0
+			height: 6px
+			background: $color-decoration
+			left: 0
+			bottom: -1px
+			transition: .3s
+		&:hover
+			&:before
+				width: 100%
+
 
 section
 	min-height: 100vh
@@ -31,7 +45,7 @@ p
 
 h1,h2,h3,h4,h5,h6
 	font-family: $heading-font
-	margin-bottom: 25px
+	margin-bottom: 10px
 	line-height: 3.5rem
 	font-weight: 700
 
@@ -76,7 +90,7 @@ video
 	margin-right: 40px
 
 .section__heading-right
-	margin-bottom: 40px
+	margin-bottom: 25px
 
 .section__icon-bottom
 	text-align: center
